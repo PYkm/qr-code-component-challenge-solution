@@ -57,7 +57,7 @@ Technique that I found useful, although not using in this challenge:
 ### Useful resources
 
 - [hsla() on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/hsla) - This article helped me to use hsla, i.e. hsl with transparency.
--[box-shadow on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) - This article helped me to understand box-shadow property.
+- [box-shadow on MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) - This article helped me to understand box-shadow property.
 
 ## Author
 
