@@ -1,0 +1,55 @@
+:root{
+  --main-bg-color: hsl(212, 45%, 89%);
+  --primary-fg-color: hsl(218, 44%, 22%);
+  --secondary-fg-color: hsl(220, 15%, 55%);
+  --font-famaily: 'Outfit', 'Verdana', sans-sarif;
+  --container-bg-color: hsl(0, 0%, 100%);
+}
+
+html{
+  font-size: 0.9375em;
+}
+
+body{
+  background-color: var(--main-bg-color);
+  font-family: var(--font-famaily);
+  color: var(--secondary-fg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  line-height: 1.25;
+  text-align: center;
+}
+
+main{
+  margin: 0 auto;
+  max-width: 20.5em;
+}
+
+.qr_code_container{
+  background-color: var(--container-bg-color);
+  border-radius: 1.5em;
+  padding: 1em;
+  box-shadow: 0 2em 2em hsla(218, 44%, 22%, .05);
+  /* margin-bottom: 2em; */
+}
+
+.qr_code_container img{
+  border-radius: 0.75em;
+}
+
+.qr_code_container p{
+  margin: 1.1rem 1rem 1.5rem;
+}
+
+.slogan{
+  color: var(--primary-fg-color);
+  margin: 1.3rem 1rem 1.1rem;
+  font-weight: 700;
+  font-size: 1.4em;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
